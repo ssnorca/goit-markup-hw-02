@@ -4,24 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoIT Homework #1</title>
+    <!-- Your styles next -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>GoIT Homework #2</title>
   </head>
   <body>
-    <header>
+    <header class="top-line">
       <nav>
-        <a href="/">WEBSTUDIO</a>
+        <a class="logo" href="/">WEBSTUDIO</a>
         <!-- Navigation to other pages -->
-        <ul>
-          <li><a href="/studio">Studio</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/contacts">Contacts</a></li>
+        <ul class="unordered-list">
+          <li class="unordered-list-nav">
+            <a href="./index.html">Studio</a>
+          </li>
+          <li class="unordered-list-nav">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="unordered-list-nav">
+            <a href="/contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="unordered-list">
+        <li class="unordered-list-contact-info">
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="unordered-list-contact-info">
           <a href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
@@ -30,18 +44,18 @@
     <!-- Main Section -->
     <main>
       <!-- Section 1-->
-      <section>
-        <h1>
+      <section class="section-one">
+        <h1 class="section-one-header">
           Effective Solutions<br />
           for Your Business
         </h1>
-        <button type="button">Order Service</button>
+        <button class="section-one-button" type="button">Order Service</button>
       </section>
       <!-- Section 2-->
-      <section>
+      <section class="section-two">
         <div>
-          <ul>
-            <li>
+          <ul class="unordered-list">
+            <li class="section-two-listitem">
               <h3>Strategy</h3>
               <p>
                 Our goal is to identify the business<br />
@@ -49,7 +63,7 @@
                 solution.
               </p>
             </li>
-            <li>
+            <li class="section-two-listitem">
               <h3>Punctuality</h3>
               <p>
                 Bring the key message to the<br />
@@ -57,7 +71,7 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="section-two-listitem">
               <h3>Diligence</h3>
               <p>
                 Research and confirm brands that<br />
@@ -65,7 +79,7 @@
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="section-two-listitem">
               <h3>Technologies</h3>
               <p>
                 Design practice focused on digital<br />
@@ -77,60 +91,68 @@
         </div>
       </section>
       <!-- Section 3 -->
-      <section>
+      <section class="section-three">
         <div>
           <h2>What Are We Doing</h2>
-          <ul>
-            <li>
+          <ul class="unordered-list">
+            <li class="section-three-listitem">
               <img src="./images/desktop.jpg" alt="computer" width="360" />
             </li>
-            <li>
+            <li class="section-three-listitem">
               <img
                 src="./images/responsive.jpg"
                 alt="responsive design"
                 width="360"
               />
             </li>
-            <li>
+            <li class="section-three-listitem">
               <img src="./images/cellphone.jpg" alt="cellphone" width="360" />
             </li>
           </ul>
         </div>
       </section>
       <!-- Section 4-->
-      <section>
+      <section class="section-four">
         <div>
           <h2>Our Team</h2>
-          <ul>
-            <li>
+          <ul class="unordered-list">
+            <li class="section-four-listitem section-four-listitem-style">
               <img src="./images/mark.jpg" alt="mark" width="264" />
-              <h3>Mark Guererro</h3>
-              <p>Product Designer</p>
+              <div class="card-content">
+                <h3>Mark Guererro</h3>
+                <p>Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="section-four-listitem section-four-listitem-style">
               <img src="./images/tom.jpg" alt="tom" width="264" />
-              <h3>Tom Ford</h3>
-              <p>Frontend Developer</p>
+              <div class="card-content">
+                <h3>Tom Ford</h3>
+                <p>Frontend Developer</p>
+              </div>
             </li>
-            <li>
+            <li class="section-four-listitem section-four-listitem-style">
               <img
                 src="./images/camilla.jpg"
                 alt="camilla"
                 width="264"
                 width="40"
               />
-              <h3>Camilla Garcia</h3>
-              <p>Marketing</p>
+              <div class="card-content">
+                <h3>Camilla Garcia</h3>
+                <p>Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="section-four-listitem section-four-listitem-style">
               <img
                 src="./images/daniel.jpg"
                 alt="daniel"
                 width="264"
                 width="40"
               />
-              <h3>Daniel Wilson</h3>
-              <p>UI Designer</p>
+              <div class="card-content">
+                <h3>Daniel Wilson</h3>
+                <p>UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -138,7 +160,7 @@
     </main>
 
     <!-- Page footer -->
-    <footer>
+    <footer class="footer">
       <!-- ⚠️ Social media links, not nav -->
       <div>
         <a href="/">WEBSTUDIO</a>
