@@ -25,11 +25,15 @@ body {
 .contacts-menu,
 .benefits,
 .what-we-do,
-.team,
 .filters,
+.team,
 .projects {
   list-style-type: none;
   display: inline-flex;
+}
+.filters {
+  margin-left: 427px;
+  margin-right: 427px;
 }
 a {
   text-decoration: none;
