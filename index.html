@@ -15,28 +15,33 @@
     <title>GoIT Homework #2</title>
   </head>
   <body>
-    <header class="top-line">
+    <header class="page-header">
       <nav>
-        <a class="logo" href="/">WEBSTUDIO</a>
+        <a class="logo-link" href="/">
+          <span class="logo">WEB</span>
+          <span class="studio">STUDIO</span>
+        </a>
         <!-- Navigation to other pages -->
-        <ul class="unordered-list">
-          <li class="unordered-list-nav">
-            <a href="./index.html">Studio</a>
+        <ul class="nav-menu list">
+          <li>
+            <a class="page current" href="./index.html">Studio</a>
           </li>
-          <li class="unordered-list-nav">
-            <a href="./portfolio.html">Portfolio</a>
+          <li>
+            <a class="page" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="unordered-list-nav">
-            <a href="/contacts">Contacts</a>
+          <li>
+            <a class="page" href="/contacts">Contacts</a>
           </li>
         </ul>
       </nav>
-      <ul class="unordered-list">
-        <li class="unordered-list-contact-info">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contacts-menu list">
+        <li>
+          <a class="item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li class="unordered-list-contact-info">
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        <li>
+          <a class="item" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
     </header>
@@ -44,44 +49,44 @@
     <!-- Main Section -->
     <main>
       <!-- Section 1-->
-      <section class="section-one">
-        <h1 class="section-one-header">
+      <section class="hero bg-hero">
+        <h1 class="hero-title">
           Effective Solutions<br />
           for Your Business
         </h1>
-        <button class="section-one-button" type="button">Order Service</button>
+        <button class="button primary" type="button">Order Service</button>
       </section>
       <!-- Section 2-->
-      <section class="section-two">
-        <div>
-          <ul class="unordered-list">
-            <li class="section-two-listitem">
-              <h3>Strategy</h3>
-              <p>
+      <section class="section">
+        <div class="container">
+          <ul class="benefits list">
+            <li>
+              <h3 class="title">Strategy</h3>
+              <p class="description">
                 Our goal is to identify the business<br />
                 problem to walk away with the <br />perfect and creative
                 solution.
               </p>
             </li>
-            <li class="section-two-listitem">
-              <h3>Punctuality</h3>
-              <p>
+            <li>
+              <h3 class="title">Punctuality</h3>
+              <p class="description">
                 Bring the key message to the<br />
                 brand's audience for the best price<br />
                 within the shortest possible time.
               </p>
             </li>
-            <li class="section-two-listitem">
-              <h3>Diligence</h3>
-              <p>
+            <li>
+              <h3 class="title">Diligence</h3>
+              <p class="description">
                 Research and confirm brands that<br />
                 present the strongest digital growth<br />
                 opportunities and minimize risk.
               </p>
             </li>
-            <li class="section-two-listitem">
-              <h3>Technologies</h3>
-              <p>
+            <li>
+              <h3 class="title">Technologies</h3>
+              <p class="description">
                 Design practice focused on digital<br />
                 experiences. We bring forth a deep<br />
                 passion for problem-solving.
@@ -91,68 +96,76 @@
         </div>
       </section>
       <!-- Section 3 -->
-      <section class="section-three">
-        <div>
-          <h2>What Are We Doing</h2>
-          <ul class="unordered-list">
-            <li class="section-three-listitem">
-              <img src="./images/desktop.jpg" alt="computer" width="360" />
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">What Are We Doing</h2>
+          <ul class="what-we-do list">
+            <li>
+              <img
+                src="./images/desktop.jpg"
+                alt="computer"
+                width="370"
+                height="294"
+              />
             </li>
-            <li class="section-three-listitem">
+            <li>
               <img
                 src="./images/responsive.jpg"
                 alt="responsive design"
-                width="360"
+                width="370"
+                height="294"
               />
             </li>
-            <li class="section-three-listitem">
-              <img src="./images/cellphone.jpg" alt="cellphone" width="360" />
+            <li>
+              <img
+                src="./images/cellphone.jpg"
+                alt="cellphone"
+                width="370"
+                height="294"
+              />
             </li>
           </ul>
         </div>
       </section>
       <!-- Section 4-->
-      <section class="section-four">
-        <div>
-          <h2>Our Team</h2>
-          <ul class="unordered-list">
-            <li class="section-four-listitem section-four-listitem-style">
-              <img src="./images/mark.jpg" alt="mark" width="264" />
-              <div class="card-content">
-                <h3>Mark Guererro</h3>
-                <p>Product Designer</p>
-              </div>
+      <section class="section bg-team">
+        <div class="container">
+          <h2 class="section-title">Our Team</h2>
+          <ul class="team list">
+            <li>
+              <img
+                src="./images/mark.jpg"
+                alt="mark"
+                width="270"
+                height="260"
+              />
+              <h3 class="name">Mark Guererro</h3>
+              <p class="position">Product Designer</p>
             </li>
-            <li class="section-four-listitem section-four-listitem-style">
-              <img src="./images/tom.jpg" alt="tom" width="264" />
-              <div class="card-content">
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
-              </div>
+            <li>
+              <img src="./images/tom.jpg" alt="tom" width="270" height="260" />
+              <h3 class="name">Tom Ford</h3>
+              <p class="position">Frontend Developer</p>
             </li>
-            <li class="section-four-listitem section-four-listitem-style">
+            <li>
               <img
                 src="./images/camilla.jpg"
                 alt="camilla"
-                width="264"
-                width="40"
+                width="270"
+                height="260"
               />
-              <div class="card-content">
-                <h3>Camilla Garcia</h3>
-                <p>Marketing</p>
-              </div>
+              <h3 class="name">Camilla Garcia</h3>
+              <p class="position">Marketing</p>
             </li>
-            <li class="section-four-listitem section-four-listitem-style">
+            <li>
               <img
                 src="./images/daniel.jpg"
                 alt="daniel"
                 width="264"
                 width="40"
               />
-              <div class="card-content">
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
-              </div>
+              <h3 class="name">Daniel Wilson</h3>
+              <p class="position">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -160,11 +173,14 @@
     </main>
 
     <!-- Page footer -->
-    <footer class="footer">
+    <footer class="page-footer bg-footer">
       <!-- ⚠️ Social media links, not nav -->
       <div>
-        <a href="/">WEBSTUDIO</a>
-        <p>
+        <a class="logo-link" href="/">
+          <span class="logo">WEB</span>
+          <span class="studio">STUDIO</span>
+        </a>
+        <p class="footer-description">
           Increase the flow of customers and<br />
           sales for your business with digital<br />
           marketing & growth solutions.
