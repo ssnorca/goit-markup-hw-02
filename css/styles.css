@@ -9,7 +9,7 @@
 }
 /* Checked */
 body {
-  background-color: var(--cloud);
+  /* background-color: var(--cloud); */
   color: var(--slate);
   font-family: "Raleway", sans-serif;
   font-size: 14px;
