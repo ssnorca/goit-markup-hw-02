@@ -17,11 +17,6 @@ body {
 }
 
 /* Checked */
-.list {
-  list-style-type: none;
-}
-
-/* Checked */
 .nav-menu .page {
   font-weight: 500;
   color: var(--navyblue);
@@ -29,6 +24,29 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+/* Checked */
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page .current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
+  color: var(--iris);
+}
+/* Checked */
+.contacts-menu .item {
+  color: var(--slate);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Checked */
+.list {
+  list-style-type: none;
 }
 
 /* Checked */
@@ -149,24 +167,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-}
-
-/* Checked */
-.nav-menu .page:hover,
-.nav-menu .page:focus,
-.nav-menu .page .current,
-.contacts-menu .item:hover,
-.contacts-menu .item:focus {
-  color: var(--iris);
-}
-/* Checked */
-.contacts-menu .item {
-  color: var(--slate);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 /* Checked */
